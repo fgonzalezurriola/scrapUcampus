@@ -1,0 +1,949 @@
+{
+  "CC_data": [
+    {
+      "id": "CC1000",
+      "name": "Herramientas Computacionales para Ingeniería y Ciencias",
+      "credits": 3,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC1002",
+      "name": "Introducción a la Programación",
+      "credits": 6,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC3001",
+      "name": "Algoritmos y Estructuras de Datos",
+      "credits": 6,
+      "prerequisites": [
+        "CC1001",
+        "CC1002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC3002",
+      "name": "Metodologías de Diseño y Programación",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC3101",
+      "name": "Matemáticas Discretas para la Computación",
+      "credits": 6,
+      "prerequisites": [
+        "CC1002",
+        "MA1101"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC3102",
+      "name": "Teoría de la Computación",
+      "credits": 6,
+      "prerequisites": [
+        "CC3101",
+        "MA3705"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC3201",
+      "name": "Bases de Datos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC3301",
+      "name": "Programación de Software de Sistemas",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC3501",
+      "name": "Modelación y Computación Gráfica para Ingenieros",
+      "credits": 6,
+      "prerequisites": [
+        "CC1002",
+        "MA2001",
+        "MA2601",
+        "FI2001"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4001",
+      "name": "Taller de Programación A",
+      "credits": 3,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4005",
+      "name": "Taller de Programación Competitiva A",
+      "credits": 6,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4101",
+      "name": "Lenguajes de Programación",
+      "credits": 6,
+      "prerequisites": [
+        "CC3102"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4102",
+      "name": "Diseño y Análisis de Algoritmos",
+      "credits": 6,
+      "prerequisites": [
+        "MA3403",
+        "MA3402",
+        "CC3001",
+        "CC3102"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4302",
+      "name": "Sistemas Operativos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3301"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4303",
+      "name": "Redes",
+      "credits": 6,
+      "prerequisites": [
+        "CC4302"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4401",
+      "name": "Ingeniería de Software",
+      "credits": 6,
+      "prerequisites": [
+        "CC3002",
+        "CC3201"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4402",
+      "name": "Formulación, Evaluación y Gestión de Proyectos",
+      "credits": 6,
+      "prerequisites": [
+        "CC4401",
+        "CD2201",
+        "IN2201"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4900",
+      "name": "Taller de Práctica Profesional I",
+      "credits": 0,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4901",
+      "name": "Práctica Profesional I",
+      "credits": 7,
+      "prerequisites": [
+        "CC3002",
+        "CC3201",
+        "CC3301",
+        "CC4900"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5002",
+      "name": "Desarrollo de Aplicaciones Web",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5205",
+      "name": "Minería de Datos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5208",
+      "name": "Visualización de Información",
+      "credits": 6,
+      "prerequisites": [
+        "CC3201"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5212",
+      "name": "Procesamiento Masivo de Datos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3201"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5215",
+      "name": "Privacidad de datos",
+      "credits": 6,
+      "prerequisites": [
+        "MA3403",
+        "CC3201",
+        "CC5205"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5304",
+      "name": "Arquitectura de Sistemas de Alta Disponibilidad",
+      "credits": 6,
+      "prerequisites": [
+        "CC3201",
+        "CC4302"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5312",
+      "name": "Seguridad de Datos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3201",
+        "CC4302"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5317",
+      "name": "Seminario de Votación Electrónica",
+      "credits": 6,
+      "prerequisites": [
+        "CC3301"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5322",
+      "name": "Taller de Redes De Datos",
+      "credits": 3,
+      "prerequisites": [
+        "CC4303"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5325",
+      "name": "Taller de Hacking Competitivo",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5326",
+      "name": "Diseño de Sistemas de Internet de las Cosas",
+      "credits": 6,
+      "prerequisites": [
+        "CC3301",
+        "CC4303"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5328",
+      "name": "Sistemas embebidos y sensores",
+      "credits": 6,
+      "prerequisites": [
+        "CC4302"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5401",
+      "name": "Ingeniería de Software II",
+      "credits": 6,
+      "prerequisites": [
+        "CC4101",
+        "CC4401"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5402",
+      "name": "Proyecto de Software",
+      "credits": 12,
+      "prerequisites": [
+        "CC4402",
+        "CC5205",
+        "IN3301",
+        "CC5401",
+        "CC4303",
+        "CC4102"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5404",
+      "name": "Taller de UML",
+      "credits": 6,
+      "prerequisites": [
+        "CC3002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5408",
+      "name": "Taller de Diseño y Desarrollo de Videojuegos",
+      "credits": 6,
+      "prerequisites": [
+        "CC1002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5409",
+      "name": "Taller de Videojuegos Multijugador",
+      "credits": 6,
+      "prerequisites": [
+        "CC3002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5502",
+      "name": "Geometría Computacional",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001",
+        "CC3101"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5510",
+      "name": "Diseño de Sistemas Interactivos",
+      "credits": 6,
+      "prerequisites": [
+        "CC1002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5602",
+      "name": "Gestión Informática",
+      "credits": 6,
+      "prerequisites": [
+        "CC4402"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5609",
+      "name": "Taller de Desarrollo Comercial",
+      "credits": 3,
+      "prerequisites": [
+        "CC3002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5611",
+      "name": "Ética para Ingenieros en Computación",
+      "credits": 3,
+      "prerequisites": [
+        "CC3002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5613",
+      "name": "Taller de Comunicación Efectiva: Caso Práctico de Lanzamiento de Producto",
+      "credits": 3,
+      "prerequisites": [
+        "CC3002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5614",
+      "name": "Herramientas para el Trabajo en Equipo",
+      "credits": 3,
+      "prerequisites": [
+        "CC3002"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5615",
+      "name": "Business Analytics",
+      "credits": 3,
+      "prerequisites": [
+        "CC3201"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5618",
+      "name": "Taller de Transformación Digital, una Visión Empresarial",
+      "credits": 3,
+      "prerequisites": [
+        "CC4401"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5900",
+      "name": "Taller de Práctica Profesional II",
+      "credits": 0,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5901",
+      "name": "Práctica Profesional II",
+      "credits": 7,
+      "prerequisites": [
+        "CC4901",
+        "CC4401",
+        "CC4101",
+        "CC5900"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5905",
+      "name": "Trabajo Dirigido",
+      "credits": 6,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6205",
+      "name": "Procesamiento de Lenguaje Natural",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001",
+        "MA3403"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6401",
+      "name": "Taller de Metodologías Ágiles de Desarrollo de Software",
+      "credits": 6,
+      "prerequisites": [
+        "CC4401"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6603",
+      "name": "Innovación y Emprendimiento",
+      "credits": 6,
+      "prerequisites": [
+        "CC4401"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6907",
+      "name": "Introducción al Trabajo de Título",
+      "credits": 6,
+      "prerequisites": [
+        "CC4402"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6908",
+      "name": "Introducción al Trabajo de Título",
+      "credits": 3,
+      "prerequisites": [
+        "EI4205S",
+        "EI2090",
+        "CC5401"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6909",
+      "name": "Trabajo de Título",
+      "credits": 21,
+      "prerequisites": [
+        "CC6908",
+        "EI4205",
+        "EI2090",
+        "CC5402"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6919",
+      "name": "Trabajo de Título",
+      "credits": 24,
+      "prerequisites": [
+        "CC6907"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7126",
+      "name": "Análisis y Verificación de Programas",
+      "credits": 6,
+      "prerequisites": [
+        "CC4101"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7320",
+      "name": "Estructuras de Datos Comprimidas",
+      "credits": 6,
+      "prerequisites": [
+        "CC4102"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7515",
+      "name": "Computación en GPU",
+      "credits": 6,
+      "prerequisites": [
+        "CC3301",
+        "CC3501",
+        "FI3104"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7910",
+      "name": "Investigación en Ciencias de la Computación (Métodos, Técnicas, Perspectivas)",
+      "credits": 6,
+      "prerequisites": [
+        "CC4102"
+      ],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7920",
+      "name": "Introducción a la Tesis",
+      "credits": 18,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7970",
+      "name": "Trabajo de Tesis I",
+      "credits": 18,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7980",
+      "name": "Trabajo de Tesis II",
+      "credits": 18,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC8910",
+      "name": "Trabajo de Tesis I",
+      "credits": 30,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC8920",
+      "name": "Trabajo de Tesis II",
+      "credits": 30,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC8930",
+      "name": "Trabajo de Tesis III",
+      "credits": 30,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC8940",
+      "name": "Trabajo de Tesis IV",
+      "credits": 30,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC8960",
+      "name": "Trabajo de Tesis VI",
+      "credits": 30,
+      "prerequisites": [],
+      "semester": "Otoño",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4002",
+      "name": "Taller de Programación B",
+      "credits": 3,
+      "prerequisites": [],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4006",
+      "name": "Taller de Programación Competitiva B",
+      "credits": 6,
+      "prerequisites": [],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC4301",
+      "name": "Arquitectura de Computadores",
+      "credits": 6,
+      "prerequisites": [
+        "CC3301",
+        "FI2002"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5101",
+      "name": "Análisis Avanzado de Algoritmos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001",
+        "MA3403"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5104",
+      "name": "Lenguajes de Programación II",
+      "credits": 6,
+      "prerequisites": [
+        "CC4101",
+        "CC3002"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5115",
+      "name": "Programación Funcional",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001",
+        "CC3101"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5116",
+      "name": "Diseño e Implementación de Compiladores",
+      "credits": 6,
+      "prerequisites": [
+        "CC3301",
+        "CC4101"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5117",
+      "name": "Algoritmos, Redes y Equidad: Análisis de Sistemas Sociotécnicos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3101",
+        "MA3403"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5213",
+      "name": "Recuperación de Información Multimedia",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5301",
+      "name": "Introducción a la Criptografía Moderna",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001",
+        "CC3102",
+        "MA3403",
+        "MA4701"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5501",
+      "name": "Mallas Geométricas y Aplicaciones",
+      "credits": 6,
+      "prerequisites": [
+        "CC3001"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5512",
+      "name": "Arquitectura de Motores de Juegos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3501",
+        "CC4302",
+        "CC4401"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5513",
+      "name": "Procesamiento geométrico y análisis de formas",
+      "credits": 6,
+      "prerequisites": [
+        "CC4102",
+        "CC3501"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5601",
+      "name": "Preparación y Evaluación de Proyectos TI",
+      "credits": 6,
+      "prerequisites": [
+        "CC4402"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5603",
+      "name": "Gestión y Gobernanza de Datos",
+      "credits": 6,
+      "prerequisites": [
+        "CC4402"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5620",
+      "name": "Introducción al Derecho Informático",
+      "credits": 6,
+      "prerequisites": [
+        "CC4901"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC5701",
+      "name": "Informática Médica",
+      "credits": 3,
+      "prerequisites": [
+        "CC3201"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6104",
+      "name": "Pensamiento Estadístico",
+      "credits": 6,
+      "prerequisites": [
+        "CC5206",
+        "MA3403",
+        "MA3401",
+        "CC5205",
+        "EL3104",
+        "IN3141"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC6204",
+      "name": "Deep Learning",
+      "credits": 6,
+      "prerequisites": [
+        "CC5205"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7010",
+      "name": "Pasantía de Investigación I",
+      "credits": 3,
+      "prerequisites": [],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7015",
+      "name": "Pasantía de Investigación II",
+      "credits": 3,
+      "prerequisites": [],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7020",
+      "name": "Investigación Dirigida",
+      "credits": 6,
+      "prerequisites": [],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7125",
+      "name": "Introducción a Coq: Lógica, Tipos y Verificación",
+      "credits": 6,
+      "prerequisites": [
+        "CC4101",
+        "MA3705",
+        "MA4702"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7220",
+      "name": "La Web de Datos",
+      "credits": 6,
+      "prerequisites": [
+        "CC3201"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC7513",
+      "name": "Análisis y Uso de Algoritmos Geométricos",
+      "credits": 6,
+      "prerequisites": [
+        "CC4102"
+      ],
+      "semester": "Primavera",
+      "color": "bg-common"
+    },
+    {
+      "id": "CC8950",
+      "name": "Trabajo de Tesis V",
+      "credits": 30,
+      "prerequisites": [],
+      "semester": "Primavera",
+      "color": "bg-common"
+    }
+  ]
+}
