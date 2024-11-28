@@ -43,11 +43,11 @@ for url in urls:
     semestre = "Otoño" if "20241" in url else "Primavera"
     print(f"\nProcesando semestre: {semestre}")
 
-    # Verificar si la solicitud fue exitosa
+    # Verificar si la solicitud fue exitosa, si lo fue, obtener el html
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Encontrar todos los ramos en la página
+        # Encontrar todos los ramos en la página, por divs con clase 'ramo'
         ramos = soup.find_all('div', class_='ramo')
         print(f"Encontrados {len(ramos)} ramos en {semestre}")
         
@@ -57,7 +57,7 @@ for url in urls:
                 nombre = ramo.find('h1').get_text(strip=True)
                 codigo = ramo.find('h2').get_text(strip=True)
 
-                # Saltar si el código tiene menos de 6 caracteres
+                # Saltar si el código tiene menos de 6 caracteres (ramos de postgrado)
                 if len(codigo) < 6:
                     continue
 
@@ -76,17 +76,15 @@ for url in urls:
                             if requisitos_text.strip():
                                 requisitos = formatear_prerrequisitos(requisitos_text)
 
-                        # Construir el objeto del curso
                         course = {
                             "id": codigo,
                             "name": nombre,
                             "credits": creditos,
                             "prerequisites": requisitos,
-                            "semester": semestre,
-                            "color": "bg-common"
+                            "color": "bg-common" # Color definido en mi TailwindCSS
                         }
                         
-                        # Añadir al diccionario si no existe
+                        # Si no apareció en otoño, añadirlo al diccionario
                         if codigo not in courses_dict:
                             courses_dict[codigo] = course
             except Exception as e:
@@ -98,12 +96,12 @@ for url in urls:
 courses = list(courses_dict.values())
 print(f"\nTotal de cursos únicos procesados: {len(courses)}")
 
-# Crear el JSON y guardarlo con nombre en inglés
+# Crear el JSON de salida
 json_output = {
     f"{nombre_archivo}": courses
 }
 
-# Guardar el JSON en un archivo en la misma carpeta
+# Guardar el JSON en un archivo en la misma con el nombre de la variable nombre_archivo (definida al inicio)
 output_file = os.path.join(os.getcwd(), f"{nombre_archivo}.json")
 with open(output_file, "w", encoding="utf-8") as file:
     json.dump(json_output, file, indent=2, ensure_ascii=False)

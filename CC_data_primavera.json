@@ -1,309 +1,427 @@
 {
-  "CC_data": [
+  "metadata": {
+    "name": "V Semestre",
+    "season": "Primavera",
+    "degree": "Licenciatura"
+  },
+  "courses": [
     {
-      "id": "CC1000",
+      "code": "CC1000",
       "name": "Herramientas Computacionales para Ingeniería y Ciencias",
       "credits": 3,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC1002",
+      "code": "CC1002",
       "name": "Introducción a la Programación",
       "credits": 6,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": [
+        "CC3001",
+        "CC3101",
+        "CC3501",
+        "CC5408",
+        "CC5510"
+      ]
     },
     {
-      "id": "CC3001",
+      "code": "CC3001",
       "name": "Algoritmos y Estructuras de Datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC1001",
         "CC1002"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC3002",
+        "CC3201",
+        "CC3301",
+        "CC4102",
+        "CC5002",
+        "CC5205",
+        "CC5325",
+        "CC5502",
+        "CC6205",
+        "CC5101",
+        "CC5115",
+        "CC5213",
+        "CC5301",
+        "CC5501"
+      ]
     },
     {
-      "id": "CC3002",
+      "code": "CC3002",
       "name": "Metodologías de Diseño y Programación",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC4401",
+        "CC4901",
+        "CC5404",
+        "CC5409",
+        "CC5609",
+        "CC5611",
+        "CC5613",
+        "CC5614",
+        "CC5104"
+      ]
     },
     {
-      "id": "CC3101",
+      "code": "CC3101",
       "name": "Matemáticas Discretas para la Computación",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC1002",
         "MA1101"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC3102",
+        "CC5502",
+        "CC5115",
+        "CC5117"
+      ]
     },
     {
-      "id": "CC3102",
+      "code": "CC3102",
       "name": "Teoría de la Computación",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3101",
         "MA3705"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC4101",
+        "CC4102",
+        "CC5301"
+      ]
     },
     {
-      "id": "CC3201",
+      "code": "CC3201",
       "name": "Bases de Datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC4401",
+        "CC4901",
+        "CC5208",
+        "CC5212",
+        "CC5215",
+        "CC5304",
+        "CC5312",
+        "CC5615",
+        "CC5701",
+        "CC7220"
+      ]
     },
     {
-      "id": "CC3301",
+      "code": "CC3301",
       "name": "Programación de Software de Sistemas",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC4302",
+        "CC4901",
+        "CC5317",
+        "CC5326",
+        "CC7515",
+        "CC4301",
+        "CC5116"
+      ]
     },
     {
-      "id": "CC3501",
+      "code": "CC3501",
       "name": "Modelación y Computación Gráfica para Ingenieros",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC1002",
         "MA2001",
         "MA2601",
         "FI2001"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC7515",
+        "CC5512",
+        "CC5513"
+      ]
     },
     {
-      "id": "CC4001",
+      "code": "CC4001",
       "name": "Taller de Programación A",
       "credits": 3,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC4005",
+      "code": "CC4005",
       "name": "Taller de Programación Competitiva A",
       "credits": 6,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC4101",
+      "code": "CC4101",
       "name": "Lenguajes de Programación",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3102"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC5401",
+        "CC5901",
+        "CC7126",
+        "CC5104",
+        "CC5116",
+        "CC7125"
+      ]
     },
     {
-      "id": "CC4102",
+      "code": "CC4102",
       "name": "Diseño y Análisis de Algoritmos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "MA3403",
         "MA3402",
         "CC3001",
         "CC3102"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC5402",
+        "CC7320",
+        "CC7910",
+        "CC5513",
+        "CC7513"
+      ]
     },
     {
-      "id": "CC4302",
+      "code": "CC4302",
       "name": "Sistemas Operativos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3301"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC4303",
+        "CC5304",
+        "CC5312",
+        "CC5328",
+        "CC5512"
+      ]
     },
     {
-      "id": "CC4303",
+      "code": "CC4303",
       "name": "Redes",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4302"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC5322",
+        "CC5326",
+        "CC5402"
+      ]
     },
     {
-      "id": "CC4401",
+      "code": "CC4401",
       "name": "Ingeniería de Software",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3002",
         "CC3201"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC4402",
+        "CC5401",
+        "CC5618",
+        "CC5901",
+        "CC6401",
+        "CC6603",
+        "CC5512"
+      ]
     },
     {
-      "id": "CC4402",
+      "code": "CC4402",
       "name": "Formulación, Evaluación y Gestión de Proyectos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4401",
         "CD2201",
         "IN2201"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC5402",
+        "CC5602",
+        "CC6907",
+        "CC5601",
+        "CC5603"
+      ]
     },
     {
-      "id": "CC4900",
+      "code": "CC4900",
       "name": "Taller de Práctica Profesional I",
       "credits": 0,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": [
+        "CC4901"
+      ]
     },
     {
-      "id": "CC4901",
+      "code": "CC4901",
       "name": "Práctica Profesional I",
       "credits": 7,
-      "prerequisites": [
+      "requires": [
         "CC3002",
         "CC3201",
         "CC3301",
         "CC4900"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC5901",
+        "CC5620"
+      ]
     },
     {
-      "id": "CC5002",
+      "code": "CC5002",
       "name": "Desarrollo de Aplicaciones Web",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5205",
+      "code": "CC5205",
       "name": "Minería de Datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC5215",
+        "CC5402",
+        "CC6104",
+        "CC6204"
+      ]
     },
     {
-      "id": "CC5208",
+      "code": "CC5208",
       "name": "Visualización de Información",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3201"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5212",
+      "code": "CC5212",
       "name": "Procesamiento Masivo de Datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3201"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5215",
+      "code": "CC5215",
       "name": "Privacidad de datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "MA3403",
         "CC3201",
         "CC5205"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5304",
+      "code": "CC5304",
       "name": "Arquitectura de Sistemas de Alta Disponibilidad",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3201",
         "CC4302"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5312",
+      "code": "CC5312",
       "name": "Seguridad de Datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3201",
         "CC4302"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5317",
+      "code": "CC5317",
       "name": "Seminario de Votación Electrónica",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3301"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5322",
+      "code": "CC5322",
       "name": "Taller de Redes De Datos",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC4303"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5325",
+      "code": "CC5325",
       "name": "Taller de Hacking Competitivo",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5326",
+      "code": "CC5326",
       "name": "Diseño de Sistemas de Internet de las Cosas",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3301",
         "CC4303"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5328",
+      "code": "CC5328",
       "name": "Sistemas embebidos y sensores",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4302"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5401",
+      "code": "CC5401",
       "name": "Ingeniería de Software II",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4101",
         "CC4401"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC5402",
+        "CC6908"
+      ]
     },
     {
-      "id": "CC5402",
+      "code": "CC5402",
       "name": "Proyecto de Software",
       "credits": 12,
-      "prerequisites": [
+      "requires": [
         "CC4402",
         "CC5205",
         "IN3301",
@@ -311,472 +429,480 @@
         "CC4303",
         "CC4102"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC6909"
+      ]
     },
     {
-      "id": "CC5404",
+      "code": "CC5404",
       "name": "Taller de UML",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5408",
+      "code": "CC5408",
       "name": "Taller de Diseño y Desarrollo de Videojuegos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC1002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5409",
+      "code": "CC5409",
       "name": "Taller de Videojuegos Multijugador",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5502",
+      "code": "CC5502",
       "name": "Geometría Computacional",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001",
         "CC3101"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5510",
+      "code": "CC5510",
       "name": "Diseño de Sistemas Interactivos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC1002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5602",
+      "code": "CC5602",
       "name": "Gestión Informática",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4402"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5609",
+      "code": "CC5609",
       "name": "Taller de Desarrollo Comercial",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC3002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5611",
+      "code": "CC5611",
       "name": "Ética para Ingenieros en Computación",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC3002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5613",
+      "code": "CC5613",
       "name": "Taller de Comunicación Efectiva: Caso Práctico de Lanzamiento de Producto",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC3002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5614",
+      "code": "CC5614",
       "name": "Herramientas para el Trabajo en Equipo",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC3002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5615",
+      "code": "CC5615",
       "name": "Business Analytics",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC3201"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5618",
+      "code": "CC5618",
       "name": "Taller de Transformación Digital, una Visión Empresarial",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC4401"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5900",
+      "code": "CC5900",
       "name": "Taller de Práctica Profesional II",
       "credits": 0,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": [
+        "CC5901"
+      ]
     },
     {
-      "id": "CC5901",
+      "code": "CC5901",
       "name": "Práctica Profesional II",
       "credits": 7,
-      "prerequisites": [
+      "requires": [
         "CC4901",
         "CC4401",
         "CC4101",
         "CC5900"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5905",
+      "code": "CC5905",
       "name": "Trabajo Dirigido",
       "credits": 6,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC6205",
+      "code": "CC6205",
       "name": "Procesamiento de Lenguaje Natural",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001",
         "MA3403"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC6401",
+      "code": "CC6401",
       "name": "Taller de Metodologías Ágiles de Desarrollo de Software",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4401"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC6603",
+      "code": "CC6603",
       "name": "Innovación y Emprendimiento",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4401"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC6907",
+      "code": "CC6907",
       "name": "Introducción al Trabajo de Título",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4402"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC6919"
+      ]
     },
     {
-      "id": "CC6908",
+      "code": "CC6908",
       "name": "Introducción al Trabajo de Título",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "EI4205S",
         "EI2090",
         "CC5401"
       ],
-      "color": "bg-common"
+      "unlocks": [
+        "CC6909"
+      ]
     },
     {
-      "id": "CC6909",
+      "code": "CC6909",
       "name": "Trabajo de Título",
       "credits": 21,
-      "prerequisites": [
+      "requires": [
         "CC6908",
         "EI4205",
         "EI2090",
         "CC5402"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC6919",
+      "code": "CC6919",
       "name": "Trabajo de Título",
       "credits": 24,
-      "prerequisites": [
+      "requires": [
         "CC6907"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7126",
+      "code": "CC7126",
       "name": "Análisis y Verificación de Programas",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4101"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7320",
+      "code": "CC7320",
       "name": "Estructuras de Datos Comprimidas",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4102"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7515",
+      "code": "CC7515",
       "name": "Computación en GPU",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3301",
         "CC3501",
         "FI3104"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7910",
+      "code": "CC7910",
       "name": "Investigación en Ciencias de la Computación (Métodos, Técnicas, Perspectivas)",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4102"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7920",
+      "code": "CC7920",
       "name": "Introducción a la Tesis",
       "credits": 18,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC7970",
+      "code": "CC7970",
       "name": "Trabajo de Tesis I",
       "credits": 18,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC7980",
+      "code": "CC7980",
       "name": "Trabajo de Tesis II",
       "credits": 18,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC8910",
+      "code": "CC8910",
       "name": "Trabajo de Tesis I",
       "credits": 30,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC8920",
+      "code": "CC8920",
       "name": "Trabajo de Tesis II",
       "credits": 30,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC8930",
+      "code": "CC8930",
       "name": "Trabajo de Tesis III",
       "credits": 30,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC8940",
+      "code": "CC8940",
       "name": "Trabajo de Tesis IV",
       "credits": 30,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC8960",
+      "code": "CC8960",
       "name": "Trabajo de Tesis VI",
       "credits": 30,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC4002",
+      "code": "CC4002",
       "name": "Taller de Programación B",
       "credits": 3,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC4006",
+      "code": "CC4006",
       "name": "Taller de Programación Competitiva B",
       "credits": 6,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC4301",
+      "code": "CC4301",
       "name": "Arquitectura de Computadores",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3301",
         "FI2002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5101",
+      "code": "CC5101",
       "name": "Análisis Avanzado de Algoritmos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001",
         "MA3403"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5104",
+      "code": "CC5104",
       "name": "Lenguajes de Programación II",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4101",
         "CC3002"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5115",
+      "code": "CC5115",
       "name": "Programación Funcional",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001",
         "CC3101"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5116",
+      "code": "CC5116",
       "name": "Diseño e Implementación de Compiladores",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3301",
         "CC4101"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5117",
+      "code": "CC5117",
       "name": "Algoritmos, Redes y Equidad: Análisis de Sistemas Sociotécnicos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3101",
         "MA3403"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5213",
+      "code": "CC5213",
       "name": "Recuperación de Información Multimedia",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5301",
+      "code": "CC5301",
       "name": "Introducción a la Criptografía Moderna",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001",
         "CC3102",
         "MA3403",
         "MA4701"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5501",
+      "code": "CC5501",
       "name": "Mallas Geométricas y Aplicaciones",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3001"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5512",
+      "code": "CC5512",
       "name": "Arquitectura de Motores de Juegos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3501",
         "CC4302",
         "CC4401"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5513",
+      "code": "CC5513",
       "name": "Procesamiento geométrico y análisis de formas",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4102",
         "CC3501"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5601",
+      "code": "CC5601",
       "name": "Preparación y Evaluación de Proyectos TI",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4402"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5603",
+      "code": "CC5603",
       "name": "Gestión y Gobernanza de Datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4402"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5620",
+      "code": "CC5620",
       "name": "Introducción al Derecho Informático",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4901"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC5701",
+      "code": "CC5701",
       "name": "Informática Médica",
       "credits": 3,
-      "prerequisites": [
+      "requires": [
         "CC3201"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC6104",
+      "code": "CC6104",
       "name": "Pensamiento Estadístico",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC5206",
         "MA3403",
         "MA3401",
@@ -784,73 +910,73 @@
         "EL3104",
         "IN3141"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC6204",
+      "code": "CC6204",
       "name": "Deep Learning",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC5205"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7010",
+      "code": "CC7010",
       "name": "Pasantía de Investigación I",
       "credits": 3,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC7015",
+      "code": "CC7015",
       "name": "Pasantía de Investigación II",
       "credits": 3,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC7020",
+      "code": "CC7020",
       "name": "Investigación Dirigida",
       "credits": 6,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     },
     {
-      "id": "CC7125",
+      "code": "CC7125",
       "name": "Introducción a Coq: Lógica, Tipos y Verificación",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4101",
         "MA3705",
         "MA4702"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7220",
+      "code": "CC7220",
       "name": "La Web de Datos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC3201"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC7513",
+      "code": "CC7513",
       "name": "Análisis y Uso de Algoritmos Geométricos",
       "credits": 6,
-      "prerequisites": [
+      "requires": [
         "CC4102"
       ],
-      "color": "bg-common"
+      "unlocks": []
     },
     {
-      "id": "CC8950",
+      "code": "CC8950",
       "name": "Trabajo de Tesis V",
       "credits": 30,
-      "prerequisites": [],
-      "color": "bg-common"
+      "requires": [],
+      "unlocks": []
     }
   ]
 }
